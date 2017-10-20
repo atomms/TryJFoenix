@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TryJFoenix.jnlp">
+  <information>
+    <title>TryJFoenix</title>
+    <vendor>UE</vendor>
+    <description>TryJFoenix</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TryJFoenix.jar" size="2166" download="eager" />
+    <jar href="libs/jfoenix-1.4.0.jar" size="2363143" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="control.Main"  name="TryJFoenix" />
+  <update check="background"/>
+</jnlp>

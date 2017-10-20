@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXColorPicker?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXPasswordField focusColor="#009688" layoutX="81.0" layoutY="128.0" promptText="password" />
+      <JFXTextField focusColor="#009688" layoutX="81.0" layoutY="102.0" promptText="username" />
+      <JFXCheckBox checkedColor="#009688" layoutX="81.0" layoutY="61.0" />
+      <JFXRadioButton layoutX="75.0" layoutY="29.0" text="RadioButton" />
+      <JFXColorPicker layoutX="102.0" layoutY="220.0" />
+      <JFXDatePicker layoutX="67.0" layoutY="543.0" />
+   </children>
+</AnchorPane>
