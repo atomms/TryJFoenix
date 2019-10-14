@@ -6,15 +6,21 @@
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXRadioButton?>
 <?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane prefHeight="600.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <JFXPasswordField focusColor="#009688" layoutX="81.0" layoutY="128.0" promptText="password" />
-      <JFXTextField focusColor="#009688" layoutX="81.0" layoutY="102.0" promptText="username" />
+      <JFXTextField focusColor="#009688" labelFloat="true" layoutX="81.0" layoutY="102.0" promptText="username" />
+      <JFXPasswordField focusColor="#009688" labelFloat="true" layoutX="81.0" layoutY="145.0" promptText="password" />
       <JFXCheckBox checkedColor="#009688" layoutX="81.0" layoutY="61.0" />
       <JFXRadioButton layoutX="75.0" layoutY="29.0" text="RadioButton" />
       <JFXColorPicker layoutX="102.0" layoutY="220.0" />
       <JFXDatePicker layoutX="67.0" layoutY="543.0" />
+      <RadioButton layoutX="98.0" layoutY="300.0" mnemonicParsing="false" text="RadioButton" />
+      <CheckBox layoutX="106.0" layoutY="342.0" mnemonicParsing="false" text="CheckBox" />
+      <TextField layoutX="65.0" layoutY="382.0" />
    </children>
 </AnchorPane>
