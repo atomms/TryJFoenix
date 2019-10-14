@@ -8,7 +8,11 @@ import javafx.stage.Stage;
 //import com.jfoenix.controls.*
 
 	
-
+/**
+ * 
+ * @author ernesto
+ *
+ */
 public class Main extends Application {
 
 	private AnchorPane rootLayout;
